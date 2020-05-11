@@ -67,8 +67,10 @@ A client application (PU) that will be executed in Intellij. This application is
               FROM Merchant INNER JOIN ContractDocument 
                 ON Merchant.merchantAccountId = ContractDocument.merchantId`
                 
-  **Note:** To set up SQuirreLSQL follow this page:<br />
-    https://docs.gigaspaces.com/latest/dev-java/sql-client.html#Squirrel
+  **Note:** <br />
+    To set up SQuirreLSQL follow this page:<br />
+    https://docs.gigaspaces.com/latest/dev-java/sql-client.html#Squirrel<br />
+    SquirrelSQL file with relevant sql files is located in sql_files directory<br />
     
    **In addition to the above please:**<br />
    Copy also to the SquirreL lib directory:<br />
