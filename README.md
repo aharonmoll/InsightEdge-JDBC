@@ -76,7 +76,9 @@ A client application (PU) that will be executed in Intellij. This application is
    Copy also to the SquirreL lib directory:<br />
    insightedge-analytics-xtreme.jar from ~/XAPBuilds/gigaspaces-insightedge-enterprise-15.2.0/insightedge/lib/analytics-xtreme<br />
    And:<br />
-   jackson-core-2.9.2.jar and jackson-dataformat-yaml-2.9.2.jar from the jars directory of this repository
+   jackson-core-2.9.2.jar and jackson-dataformat-yaml-2.9.2.jar from the jars directory of this repository<br />
+   
+   ![snapshot](Pictures/Picture1.png)
      
     
    
