@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BillBuddyAccountFeeder/BillBuddyAccountFeeder.iml" filepath="$PROJECT_DIR$/BillBuddyAccountFeeder/BillBuddyAccountFeeder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BillBuddyModel/BillBuddyModel.iml" filepath="$PROJECT_DIR$/BillBuddyModel/BillBuddyModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BillBuddy_Space/BillBuddy_Space.iml" filepath="$PROJECT_DIR$/BillBuddy_Space/BillBuddy_Space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ie-jdbc.iml" filepath="$PROJECT_DIR$/ie-jdbc.iml" />
+    </modules>
+  </component>
+</project>
