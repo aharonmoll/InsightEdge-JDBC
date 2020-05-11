@@ -25,18 +25,13 @@ Write Document objects and pojos and read them using ie jdbc <br />
 **1.3**   Run `mvn xap:intellij` <br />
 ##### This will add the predefined Run Configuration Application to your Intellij IDE.
 
-    [INFO] ------------------------------------------------------------------------
-    [INFO] Reactor Summary:
     [INFO] 
-    [INFO] lab6-solution ...................................... SUCCESS [  0.446 s]
+    [INFO] ie-jdbc-solution ................................... SUCCESS [  0.459 s]
     [INFO] BillBuddyModel ..................................... SKIPPED
     [INFO] BillBuddy_Space .................................... SKIPPED
     [INFO] BillBuddyAccountFeeder ............................. SKIPPED
-    [INFO] BillBuddyPaymentFeeder ............................. SKIPPED
-    [INFO] BillBuddyPersistency ............................... SKIPPED
     [INFO] ------------------------------------------------------------------------
     [INFO] BUILD SUCCESS
-
 
 #### Notice the following 3 modules in Intellij: ####
 
