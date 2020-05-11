@@ -1,0 +1,8 @@
+<my-schema>
+    <table name="ContractDocument">
+        <column name="id" type="java.lang.String"/>
+        <column name="contractDate" type="java.util.Date"/>
+        <column name="transactionPercentFee" type="java.lang.Double"/>
+        <column name="merchantId" type="java.lang.Integer"/>
+    </table>
+</my-schema>

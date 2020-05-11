@@ -45,17 +45,18 @@ This project should be deployed with all other projects since all other projects
 ##### BillBuddyAccountFeeder #####
 A client application (PU) that will be executed in Intellij. This application is responsible for writing Users and Merchants to the space. <br />
 
-## 4  Run the lab
-4.1	Testing instructions <br />
+## 2  Run the lab
+2.1	Testing instructions <br />
     
   **a.**	run gs-agent <br />
 
     ./gs.sh host run-agent --auto --gsc=4
     
   **b.**	deploy BillBuddy_space to the service grid  <br />
+            Please set jdbc-alt-schema-url to the location of the my-schema.xml on your computer
 
-    ./gs.sh pu deploy BillBuddySpace ~/InsightEdge-JDBC/BillBuddy_Space/target/BillBuddy_Space.jar
-       
+    ./gs.sh pu deploy BillBuddySpace --property=jdbc-alt-schema-url=~/InsightEdge-JDBC/schema/my-schema.xml ~/InsightEdge-JDBC/BillBuddy_Space/target/BillBuddy_Space.jar
+    
   **c.**	From the Intellij run configuration select BillBuddyAccountFeeder and run it. <br />
     The account feeder will create only Contract documents and Merchant pojos for this example <br />
   **d.**	Validate that contract and merchant were written to the space (16 objects each)<br />
@@ -69,10 +70,10 @@ A client application (PU) that will be executed in Intellij. This application is
   **Note:** To set up SQuirreLSQL follow this page:<br />
     https://docs.gigaspaces.com/latest/dev-java/sql-client.html#Squirrel
     
-   In addition to the above please:
-   Copy also to the SquirreL lib directory:
-   insightedge-analytics-xtreme.jar from ~/XAPBuilds/gigaspaces-insightedge-enterprise-15.2.0/insightedge/lib/analytics-xtreme
-   And:
+   **In addition to the above please:**<br />
+   Copy also to the SquirreL lib directory:<br />
+   insightedge-analytics-xtreme.jar from ~/XAPBuilds/gigaspaces-insightedge-enterprise-15.2.0/insightedge/lib/analytics-xtreme<br />
+   And:<br />
    jackson-core-2.9.2.jar and jackson-dataformat-yaml-2.9.2.jar from the jars directory of this repository
      
     
