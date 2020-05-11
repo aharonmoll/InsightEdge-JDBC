@@ -1,0 +1,7 @@
+SELECT Merchant.name, ContractDocument.transactionPercentFee
+  FROM Merchant INNER JOIN ContractDocument 
+    ON Merchant.merchantAccountId = ContractDocument.merchantId
+
+select * from ContractDocument
+ 
+select * from Merchant
